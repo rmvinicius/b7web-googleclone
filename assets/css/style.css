@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.header .blank {
+    flex: 2;
+}
+
+.header .headerItens {
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.icons img {
+    height: 24px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+/* CONTAINER */
+
+.container {
+    height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+.container .logo {
+    margin-bottom: 25px;
+}
+
+.container .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    min-width: 580px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.container .iconSearch, .container .iconMic {
+    padding-top: 4px;
+}
+
+.container .iconSearch {
+    padding: 0px 5px;
+    margin-top: 4px;
+}
+
+.container .iconMic {
+    position: absolute;
+    right: 16px;
+}
+
+.container .searchText {
+    text-align: left;
+}
+
+.searchText input {
+    min-width: 470px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    text-shadow: none;
+    cursor: text;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 0px;
+    outline: 0;
+}
+
+.container .buttons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #3c4043;
+}
+
+.container .buttons input {
+    flex: 1;
+    margin: 0px 10px;
+    background-color: rgba(241, 243, 244, 1);
+    padding: 10px 16px;
+    margin: 11px 4px;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    color: #3c4043;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+}
+
+.container .information {
+    margin: 20px;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+.information a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #70757a;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+.footer .region {
+    width: 100%;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer .footerItens {
+    display: flex;
+    padding: 15px 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
